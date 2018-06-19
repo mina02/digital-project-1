@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />	
+	<title>2018-1 Digital Project</title>
+	<link rel="stylesheet" href="css/style.css" />	
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/prefixfree.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</head>
+<body>
+
+	<div class="wrap">
+
+		<nav>
+			<ul>
+				<li>
+					<a href="https://drive.google.com/open?id=1Zgis4XxJsY5LFXRIyLppLc5BldsKW4wx--C-dDyGUW4" target="block">
+					About
+					</a>
+				</li>
+				<li>
+					<a href="" target="self">
+					Recipe
+					</a>
+				</li>
+				<li>
+					<a href="" target="self">
+					Video
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="myNav1" class="overlay">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  				<div class="overlay-content">
+					<iframe width="1280" height="720" src="https://www.youtube.com/embed/1J_l-Q0TDwo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  				</div>
+		</div>
+		<div id="myNav2" class="overlay">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNavi()">&times;</a>
+  				<div class="overlay-content">
+					<iframe width="1280" height="720" src="https://www.youtube.com/embed/7C2z4GqqS5E?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  				</div>
+		</div>
+		<div id="myNav3" class="overlay">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNavig()">&times;</a>
+  				<div class="overlay-content">
+					<iframe width="1280" height="720" src="https://www.youtube.com/embed/9mQk7Evt6Vs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  				</div>
+		</div>
+		<section>
+			<div class="line">
+			<article id="first">
+				<img src="../img/cherry.png" id="im1">
+				<h2 class="num">01</h2>
+				<h2 class="title">French Toast<br>of<br>Dawn</h2>
+				<video style="cursor:pointer" onclick="openNav()" id="cherry" loop="loop" preload="auto">
+					<source src="img/thum1.mp4" type="video/mp4"/>
+				</video>
+				<h3>French<br>Toast</h3>
+				<div></div>
+			</article>
+
+			<article id="second">
+				<img src="../img/avocado.png" id="im2">
+				<h2 class="num">02</h2>
+				<h2 class="title">Avocado Toast<br>of<br>Peter Pan</h2>
+				<video style="cursor:pointer" onclick="openNavi()" id="avo" loop="loop" preload="auto">
+				<source src="img/thum2.mp4" type="video/mp4"/>
+				</video>
+				<h3>Avocado<br>Toast</h3>
+				<div></div>
+			</article>
+
+			<article id="third">
+				<img src="../img/cheese.png" id="im3">
+				<h2 class="num">03</h2>
+				<h2 class="title">Cheese Cake<br>of<br>Tinker Bell</h2>
+				<video style="cursor:pointer" onclick="openNavig()" id="cheese" loop="loop" preload="auto">
+				<source src="img/thum3.mp4" type="video/mp4"/>
+				</video>
+				<h3>Cheese<br>Cake</h3>
+				<div></div>
+			</article>
+		</div>
+		</section>
+
+		<footer>
+    		<span><a href="" target="_blank">&copy; 2018-1 Digital Project.
+    		<a class="footer-copyright-item" href="https://drive.google.com/open?id=1Zgis4XxJsY5LFXRIyLppLc5BldsKW4wx--C-dDyGUW4" target="_blank">Cooking Fairytale for Adults</a>
+    		<a href="" target="_blank">Made by Jung Min A</a></span>
+		</footer>
+
+	</div>
+<script>
+function openNav() {
+    document.getElementById("myNav1").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav1").style.width = "0%";
+
+}
+function openNavi() {
+    document.getElementById("myNav2").style.width = "100%";
+}
+
+function closeNavi() {
+    document.getElementById("myNav2").style.width = "0%";
+}
+function openNavig() {
+    document.getElementById("myNav3").style.width = "100%";
+}
+
+function closeNavig() {
+    document.getElementById("myNav3").style.width = "0%";
+}
+</script>
+     
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
